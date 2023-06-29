@@ -4,8 +4,6 @@
 typedef unsigned char uint8_t;
 typedef unsigned short int uint16_t;
 
-
-
 typedef enum {
 	freq_100K,
     freq_250K,
@@ -40,7 +38,7 @@ Transmits the data of specified length (len) from the data buffer(*pdata) to the
 
 uint8_t i2c_master_receive(uint8_t slave_addr, uint8_t* p_data, uint8_t len);
 /*
-
+Recieves the data of specified length (len) into the data buffer(*pdata) to the slave with address (slave_addr)
 */
 
 #endif
