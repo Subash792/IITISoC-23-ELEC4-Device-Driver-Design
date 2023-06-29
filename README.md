@@ -9,7 +9,7 @@ Links to the product page and hardware details:
 4. [ATtiny 85 Firmware repo](https://github.com/sparkfun/Qwiic_Joystick/tree/master/Firmware/ATtiny85%20Firmware)
 
 # File Structure: 
-1. Include Folder (inc) : Has the necessary header files : joystick.h and i2c.h
+1. Include Folder (inc) : Has the necessary header files : joystick.h and I2C.h
 2. Source Folder (src)  : Has the corresponding src files: joystick.cpp
 3. Readme.md            : Description about project
 
@@ -21,4 +21,4 @@ Links to the product page and hardware details:
 5. .buttonstate(): reads the current button state.
 
 Note:
-The I2C driver is still under development. The I2C functions have been declared but have to be implemented. 
+The I2C driver is still under development. The I2C functions have been declared but have to be implemented.
